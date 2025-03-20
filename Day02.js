@@ -32,7 +32,7 @@ arr.forEach((n) => {
 	})
 })
 	
-	//arr=[1,2,3,4,5,6]
+//arr=[1,2,3,4,5,6]
 //target=7
 //write a code find the all pairs that sum up to target
 
@@ -115,12 +115,12 @@ console.log(arr)
 
 let arrys=['a','b','c','d']
 
-let C=[];
+let reverse=[];
 for(let i=arrys.length; i>0; i--)
 {
-	C.push(arrys.pop());
+	reverse.push(arrys.pop());
 }
-console.log(C);
+console.log(reverse);
 
 
 //Jason
@@ -154,23 +154,21 @@ let students = [
   { regno: '2021/ICT/20', name: 'Malindu', age: 25, course: 'IT', gender: 'Male', gpa: 3.3 }
 ];
 
-//store it in array
-let itStudents = students.filter(student => student.course == 'IT');
-console.log("IT Students:", itStudents);
+//store all students in array
+console.log("All Students:", students);
 
 //find the female students
 let femaleStudents = students.filter(student => student.gender === 'Female');
 console.log("Female Students:", femaleStudents);
 
-//find the students who are folllowuing it course
-console.log("All Students:", students);
+//find the students who are folllowing it course
+let itStudents = students.filter(student => student.course == 'IT');
+console.log("IT Students:", itStudents);
 
-
-//find the max and average GPA among the student
+//find the max GPA among the student
 let maxGPA = Math.max(...students.map(student => student.gpa));
 console.log("Maximum GPA:", maxGPA);
 
-//Find the average GPA among the students
 let totalGPA = students.reduce((sum, student) => sum + student.gpa, 0);
 let averageGPA = totalGPA / students.length;
 console.log("Average GPA:", averageGPA);
