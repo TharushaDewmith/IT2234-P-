@@ -33,5 +33,5 @@
 (iii)find the students who are folllowuing it course. 
 ![09](https://github.com/user-attachments/assets/e3216ad2-6b00-4ef5-85b4-8d1256d473f0)
 
-(iv)find the maxim and average GPA among the student.
+(iv)find the maximum and average GPA among the student.
 ![12](https://github.com/user-attachments/assets/94f904b7-7873-4ef3-a567-9e4f3c02f510)
