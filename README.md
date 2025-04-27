@@ -8,6 +8,7 @@ __index.js__
 
 
 (02)Get the details of a student by entering student id.
+
 ----Available----
 ![03](https://github.com/user-attachments/assets/70d1782c-e566-49a9-86a4-ef53f9207807)
 
